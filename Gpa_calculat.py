@@ -1,4 +1,3 @@
-
 def calculate_grade(mark):  
     if mark >= 90:  
         return "A+"  
@@ -11,10 +10,8 @@ def calculate_grade(mark):
     elif mark >= 50:  
         return "D"  
     else:  
-        return "F"  # Fail  
-a =9
-print(len(a))
-# Input marks for 6 subjects  
+        return "Fail"   
+  
 sub1 = int(input("Enter the 1st subject marks: "))  
 sub2 = int(input("Enter the 2nd subject marks: "))  
 sub3 = int(input("Enter the 3rd subject marks: "))  
@@ -46,5 +43,5 @@ for i in range(len(marks)):
     grades.append(grade)  
     print(f"Grade for Subject {i + 1} with marks {marks[i]}: {grade}, GPA = {gpa}")  
 
-overall_gpa = gpa_total / len(marks)  # Average GPA  
-print(f"Overall GPA: {overall_gpa:.2f}")  
+overall_gpa = gpa_total /6   
+print(f"Overall GPA: {overall_gpa}")  
