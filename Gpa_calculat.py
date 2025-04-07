@@ -41,7 +41,7 @@ for i in range(len(marks)):
         gpa = 0  
     gpa_total += gpa 
     grades.append(grade)  
-    print(f"Grade for Subject {i + 1} with marks {marks[i]}: {grade}, GPA = {gpa}")  
+    print(f"Grade for Subject {i + 1} with marks : {marks[i]}: {grade}, GPA = {gpa}")  
 
 overall_gpa = gpa_total /6   
 print(f"Overall GPA: {overall_gpa}")  
