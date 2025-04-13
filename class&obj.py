@@ -8,8 +8,8 @@ customer2 = Customer()
 customer3 = Customer()
 
 #----------------------CUSTOMER 2--------------------------
-customer2.name = "Tariq"
-customer2.product = "dry fruit"
+customer2.name = "Tariq."
+customer2.product = "dry fruit."
 customer2.total_bill = 4400
 #----------------------CUSTOMER 3--------------------------
 customer3.name = "Ahmad"
